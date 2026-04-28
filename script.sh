@@ -14,22 +14,22 @@ do
         then
             clear
             echo -e "Abrindo VPN do Try Hack Me\n"
-            sudo openvpn ./VPNs/tryhackme.ovpn
+            sudo openvpn ./vpn/tryhackme.ovpn
     elif [ $opcao == "2" ];
         then
             clear
             echo -e "Abrindo VPN do Hack The Box\n"
-            sudo openvpn ./VPNs/hackthebox.ovpn
+            sudo openvpn ./vpn/hackthebox.ovpn
     elif [ $opcao == "3" ];
         then
             clear
             echo -e "Abrindo VPN do Capture The Flag\n"
-            sudo openvpn ./VPNs/capturetheflag.ovpn
+            sudo openvpn ./vpn/capturetheflag.ovpn
     elif [ $opcao == "4" ];
         then
             clear
             echo -e "Abrindo VPN do Hacking Club\n"
-            sudo openvpn ./VPNs/hackingclub.ovpn
+            sudo openvpn ./vpn/hackingclub.ovpn
         elif [ $opcao == "5" ];
         then
             clear
