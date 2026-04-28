@@ -36,6 +36,8 @@ sudo apt update
 sudo apt install openvpn
 ```
 
+---
+
 ## ▶️ Como executar | How to run
 ```bash
 git clone https://github.com/jomarferreira/vpn-manager.git
