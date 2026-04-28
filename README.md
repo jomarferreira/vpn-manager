@@ -34,6 +34,7 @@ Antes de executar, instale:
 ```bash
 sudo apt update
 sudo apt install openvpn
+```
 
 ## ▶️ Como executar | How to run
 ```bash
